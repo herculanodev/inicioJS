@@ -34,8 +34,9 @@ app.get("/contato", function (req, res){
 
 
 });
-app.get('/ola',function(req,res){
- res.send('ola')
+app.get('/ola/:nome',function(req,res){
+ res.send('ola');
+ 
 
 
 

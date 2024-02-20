@@ -34,8 +34,8 @@ app.get("/contato", function (req, res){
 
 
 });
-app.get('/ola/:nome',function(req,res){
- res.send('ola');
+app.get('/ola/:cargo/:nome',function(req,res){
+ res.send("olaa" +" "+ req.params.nome);
  
 
 

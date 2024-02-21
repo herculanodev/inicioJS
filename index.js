@@ -35,7 +35,7 @@ app.get("/contato", function (req, res){
 
 });
 app.get('/ola/:nome/:cargo',function(req,res){
- res.send("<h1>olaa"+ " " + req.params.nome + ", seu cargo é de: " + req.params.cargo + "</h1>");
+ res.send("<h1>ola"+ " " + req.params.nome + ", seu cargo é de: " + req.params.cargo + "</h1>");
  
 
 
@@ -45,7 +45,7 @@ app.get('/ola/:nome/:cargo',function(req,res){
 
 app.get('/quetal/:nome/:idade', function(req, res){
 
-    res.send("ola, seu nome é: " + " " + req.params.nome +  " " + " e sua idade é de " +  " " + req.params.idade )
+    res.send("ola, seu nome é: " + " " + req.params.nome +  " " + " e sua idade é de " +  " " + req.params.idade + " anos de idade" + " gostaria de dizer que finalmente posso dizer que eu sou programador jr." )
 });
 
 

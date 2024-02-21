@@ -34,12 +34,18 @@ app.get("/contato", function (req, res){
 
 
 });
-app.get('/ola/:cargo/:nome',function(req,res){
- res.send("olaa" +" "+ req.params.nome);
+app.get('/ola/:nome/:cargo',function(req,res){
+ res.send("<h1>olaa"+ " " + req.params.nome + ", seu cargo é de: " + req.params.cargo + "</h1>");
  
 
 
 
+});
+
+
+app.get('/quetal/:nome/:idade', function(req, res){
+
+    res.send("ola, seu nome é: " + " " + req.params.nome +  " " + " e sua idade é de " +  " " + req.params.idade )
 });
 
 

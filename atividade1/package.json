@@ -1,0 +1,19 @@
+{
+  "name": "ativdade1",
+  "version": "1.0.0",
+  "description": "Projeto inicial em Node.js usando Express",
+  "main": "aluno.js",
+  "scripts": {
+    "start": "node aluno.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.1"
+  }
+}
